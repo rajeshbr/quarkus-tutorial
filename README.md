@@ -3,6 +3,8 @@
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+
+We are using the Sakila database for demo purpose. Find more details about the db here <https://dev.mysql.com/doc/sakila/en/>
 ## Running the sakila DB which will be used in the application
 
 ```shell script
