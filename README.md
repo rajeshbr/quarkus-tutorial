@@ -3,6 +3,12 @@
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+## Running the sakila DB which will be used in the application
+
+```shell script
+docker run -d --publish 3306:3306 --name mysqld restsql/mysql-sakila
+```
+>**_NOTE_** use --platform linux/amd64 after run if using mac M series laptops
 
 ## Running the application in dev mode
 
